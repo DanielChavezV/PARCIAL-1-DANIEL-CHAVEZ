@@ -42,11 +42,7 @@ class Cliente:
     def __str__(self):
         """
         Representación en cadena del cliente.
-
-        Retorna:
-        -------
-        str:
-            Descripción del cliente.
+        
         """
         return (f"Cliente: {self.nombre}\nDirección: {self.direccion}\n"
                 f"Teléfono: {self.telefono}\nCorreo: {self.correo}\nFecha: {self.fecha}")
