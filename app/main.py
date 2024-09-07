@@ -4,9 +4,7 @@ from modelos.cliente import Cliente
 from datetime import datetime
 
 def mostrar_menu():
-    """
-    Muestra el menú de opciones al usuario.
-    """
+    
     print("\n--- Menú Principal ---")
     print("1. Cotizar una nueva ventana")
     print("2. Ver resumen de cotización actual")
@@ -17,11 +15,7 @@ def mostrar_menu():
 def solicitar_datos_cliente():
     """
     Solicita al usuario los datos del cliente para la cotización.
-
-    Retorna:
-    -------
-    Cliente:
-        Objeto de la clase Cliente.
+    
     """
     print("\n--- Datos del Cliente ---")
     nombre = input("Ingrese el nombre del cliente: ")
@@ -36,10 +30,6 @@ def solicitar_datos_ventana():
     """
     Solicita al usuario los datos para crear una ventana.
 
-    Retorna:
-    -------
-    Ventana:
-        Objeto de la clase Ventana con los datos ingresados por el usuario.
     """
     while True:
         estilo = input("Ingrese el estilo de la ventana (O, X, XO, OXO): ").upper()
@@ -89,15 +79,7 @@ def solicitar_datos_ventana():
 def ver_resumen(cliente, lista_ventanas, costo_total):
     """
     Muestra el resumen de la cotización, incluyendo los datos del cliente.
-
-    Parámetros:
-    ----------
-    cliente : Cliente
-        Objeto de la clase Cliente.
-    lista_ventanas : list
-        Lista de objetos de la clase Ventana cotizados.
-    costo_total : float
-        Costo total de la cotización.
+    
     """
     print("\n--- Resumen de Cotización ---")
     print("Datos del Cliente:")
