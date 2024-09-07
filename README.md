@@ -84,7 +84,7 @@ Para ejecutar este proyecto, necesitas tener instaladas las siguientes herramien
 	Si estás utilizando Git, clona el repositorio a tu máquina local:
 
 ```bash
-git clone  https://github.com/DanielChavezV/Parcial_Programacion_I.git
+git clone  https://github.com/DanielChavezV/PARCIAL-1-DANIEL-CHAVEZ.git
 ```
 
 2. Crear y activar el entorno virtual:
